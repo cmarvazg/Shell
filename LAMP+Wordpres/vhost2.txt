@@ -1,0 +1,8 @@
+<VirtualHost *:80>                                       
+	ServerAdmin CORREO                
+	ServerName DOMINIO                            
+        ServerAlias ALIAS                       
+        DocumentRoot RUTA            
+        ErrorLog LOGS/DOMINIO_error.log              
+        CustomLog LOGS/DOMINIO_access.log combined   
+</VirtualHost>
